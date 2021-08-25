@@ -452,8 +452,8 @@ body._lock {
 @media (max-width: 768px) {
   .menu__body {
     position: fixed;
-    width: 100%;
-    height: 100%;
+    width: 356px;
+    min-height: 292px;
   }
 
   .banners {
@@ -517,6 +517,11 @@ body._lock {
   }
 }
 @media (max-width: 375px) {
+  .menu__body {
+    width: 100%;
+    height: 100%;
+  }
+  
   .banners__slider-item {
     width: 100%;
     height: 260px;
